@@ -1,0 +1,9 @@
+# Home media server
+Host nas
+HostName 10.180.239.64 User yajzhao
+IdentityFile ~/.ssh/id_rsa
+
+# CAEN
+Host yajzhao
+HostName login.engin.umich.edu User yajzhao
+Compression yes
